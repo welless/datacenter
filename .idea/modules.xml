@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/projects/pscms_wechat/pscms_wechat.iml" filepath="$PROJECT_DIR$/projects/pscms_wechat/pscms_wechat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/core/springside-core.iml" filepath="$PROJECT_DIR$/modules/core/springside-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/extension/springside-extension.iml" filepath="$PROJECT_DIR$/modules/extension/springside-extension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/springside-modules.iml" filepath="$PROJECT_DIR$/modules/springside-modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/test/springside-test.iml" filepath="$PROJECT_DIR$/modules/test/springside-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/parent/surfilter-parent.iml" filepath="$PROJECT_DIR$/modules/parent/surfilter-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/surfilter-project.iml" filepath="$PROJECT_DIR$/surfilter-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/surfilter-projects.iml" filepath="$PROJECT_DIR$/projects/surfilter-projects.iml" />
+    </modules>
+  </component>
+</project>

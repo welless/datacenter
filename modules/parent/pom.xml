@@ -2,18 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.surfilter</groupId>
-	<artifactId>surfilter-parent</artifactId>
+	<groupId>com.welless</groupId>
+	<artifactId>welless-parent</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<name>Surfilter :: Module :: Parent</name>
+	<name>Welless :: Module :: Parent</name>
 	<packaging>pom</packaging>
 
 	<properties>
 		<!-- 主要依赖库的版本定义 -->
 		<springside.version>1.0.0-SNAPSHOT</springside.version>
-		<windycollector.version>4.1.1.0-SNAPSHOT</windycollector.version>
-		<surfilter-text.version>1.0.1-SNAPSHOT</surfilter-text.version>
-		<surfilter-datas-sdk.version>1.0.0-SNAPSHOT</surfilter-datas-sdk.version>
 		
 		<spring.version>3.2.0.RELEASE</spring.version>
 		<hibernate.version>4.1.9.Final</hibernate.version>
@@ -171,11 +168,6 @@
 	<!-- 预定义依赖项的version,scope与exclusions,子项目中只需定义groupId 和 artifactId 即可 -->
 	<dependencyManagement>
 		<dependencies>
-			<dependency>
-				<groupId>com.surfilter</groupId>
-				<artifactId>pscms-datas-sdk</artifactId>
-				<version>${surfilter-datas-sdk.version}</version>
-			</dependency>
 			
 			<!-- SPRINGSIDE MODULES begin -->
 			<dependency>
@@ -189,14 +181,6 @@
 				<version>${springside.version}</version>
 			</dependency>
 			<!-- SPRINGSIDE MODULES end -->
-
-			<!-- Surfilter MODULES begin -->
-			<dependency>
-				<groupId>com.surfilter</groupId>
-				<artifactId>surfilter-text</artifactId>
-				<version>${surfilter-text.version}</version>
-			</dependency>
-			<!-- Surfilter MODULES end -->
 
 			<!-- SPRING basic begin(一般不需要显式定义) -->
 			<dependency>
@@ -897,17 +881,7 @@
 					</exclusion>
 				</exclusions>
 			</dependency>
-			<dependency>
-				<groupId>com.surfilter.hbase</groupId>
-				<artifactId>hbase</artifactId>
-				<version>${hbase.version}</version>
-				<exclusions>
-					<exclusion>
-						<groupId>commons-logging</groupId>
-						<artifactId>commons-logging</artifactId>
-					</exclusion>
-				</exclusions>
-			</dependency>
+			
 			<dependency>
 				<groupId>org.apache.zookeeper</groupId>
 				<artifactId>zookeeper</artifactId>
@@ -1059,12 +1033,6 @@
 				<groupId>org.apache.xmlgraphics</groupId>
 				<artifactId>batik-codec</artifactId>
 				<version>${batik-codec.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.surfilter</groupId>
-				<artifactId>windycollector-core</artifactId>
-				<version>${windycollector.version}</version>
 			</dependency>
 
 			<dependency>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/modules" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/extension" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/projects/pscms_wechat" charset="UTF-8" />
+  </component>
+</project>

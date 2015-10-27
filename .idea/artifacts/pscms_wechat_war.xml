@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pscms_wechat:war">
+    <output-path>$PROJECT_DIR$/projects/pscms_wechat/target</output-path>
+    <root id="archive" name="pscms_wechat.war">
+      <element id="artifact" artifact-name="pscms_wechat:war exploded" />
+    </root>
+  </artifact>
+</component>
